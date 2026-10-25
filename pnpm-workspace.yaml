@@ -1,5 +1,10 @@
 minimumReleaseAge: 0
 minimumReleaseAgeStrict: true
 allowBuilds:
+  core-js-pure: true
   esbuild: true
   sharp: false
+
+ignoredOptionalDependencies:
+  - "@mongodb-js/zstd"
+  - "node-liblzma"
